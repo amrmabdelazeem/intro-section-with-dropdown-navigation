@@ -36,7 +36,7 @@ body{
 }
 
 .icon-close{
-    width: 29px;
+    width: 25px;
     position: absolute;
     top: 0;
     right: 0;
@@ -113,7 +113,7 @@ details > summary::marker /* Latest Chrome, Edge, Firefox */ {
     background-image: url(../images/image-hero-mobile.png);
     background-repeat: no-repeat;
     height: 280px;
-    background-size: contain;
+    background-size:contain;
 }
 
 .content{
