@@ -50,6 +50,10 @@ body{
     cursor: pointer;   
 }
 
+.nav-menu details:hover, .nav-menu a:hover{
+    color: var(--almostBlack);
+}
+
 .nav-menu p, .arrow{
     padding-left: .5rem;
 }
@@ -107,7 +111,15 @@ details > summary::marker /* Latest Chrome, Edge, Firefox */ {
     color: var(--mediumGray);
     background-color: var(--almostWhite);
     cursor: pointer;
+    border: 2px solid var(--mediumGray);
+}
 
+#login:hover{
+    color: var(--almostBlack);
+}
+#register:hover{
+    color: var(--almostBlack);
+    border: 2px solid var(--almostBlack);
 }
   
 
