@@ -23,7 +23,7 @@ body{
 }
 .nav-menu{
     background-color: var(--almostWhite);
-    width: 245px;
+    width: 220px;
     height: 100dvh;
     position: absolute;
     top: 0;
@@ -32,11 +32,12 @@ body{
     flex-direction: column;
     padding-top: 4rem;
     color: var(--mediumGray);
+    padding-left: 1.5rem;
 }
 
 .nav-menu details{
     margin-bottom: 1rem;
-    margin-left: 1.5rem;
+    
 }
 .nav-menu p{
     padding-left: .5rem;
@@ -44,17 +45,28 @@ body{
 
 .features{
     display: flex;
+    margin-left: 1.5rem;
 
 }
 .icons{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-right: .5rem;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+
+.company a:first-child{
+    padding-top: 1rem;
 }
 .nav-menu a{
     margin: 0;
     margin-bottom: 1rem;
-    margin-left: 1.5rem;
     text-decoration: none;
     color: var(--mediumGray);
 }
