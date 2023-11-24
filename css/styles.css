@@ -24,16 +24,39 @@ body{
 .nav-menu{
     background-color: var(--almostWhite);
     width: 245px;
+    height: 100dvh;
     position: absolute;
     top: 0;
     right: 0;
-    display: none;
+    display: flex;
     flex-direction: column;
+    padding-top: 4rem;
+    color: var(--mediumGray);
 }
 
+.nav-menu details{
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
 .nav-menu p{
-    padding: 0;
+    padding-left: .5rem;
+}
+
+.features{
+    display: flex;
+
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.nav-menu a{
     margin: 0;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: var(--mediumGray);
 }
 
 details > summary {
