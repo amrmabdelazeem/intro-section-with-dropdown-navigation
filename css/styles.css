@@ -8,3 +8,15 @@
     font-family: 'Epilogue', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+.intro{
+    padding:10px;
+}
+.logo img, .navbar img{
+    width: 90%;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
