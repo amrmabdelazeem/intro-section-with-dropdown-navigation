@@ -35,6 +35,14 @@ body{
     padding-left: 1.5rem;
 }
 
+.icon-close{
+    width: 29px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
 .nav-menu details{
     margin-bottom: 1rem;
     
