@@ -3,3 +3,8 @@
     --mediumGray:hsl(0, 0%, 41%);
     --almostBlack: hsl(0, 0%, 8%);
 }
+
+*{
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
