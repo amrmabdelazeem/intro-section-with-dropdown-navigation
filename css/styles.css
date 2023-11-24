@@ -45,9 +45,10 @@ body{
 
 .nav-menu details{
     margin-bottom: 1rem;
-    
+    cursor: pointer;   
 }
-.nav-menu p{
+
+.nav-menu p, .arrow{
     padding-left: .5rem;
 }
 
