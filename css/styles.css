@@ -142,6 +142,10 @@ h1{
     padding: 12px 15px;
     cursor: pointer;
 }
+.mid-content button:hover{
+    background-color: var(--almostWhite);
+    color: var(--almostBlack);
+}
 
 .footer{
     margin-top: 2rem;
