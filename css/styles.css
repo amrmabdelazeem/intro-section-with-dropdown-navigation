@@ -176,6 +176,9 @@ h1{
 
 
 @media (min-width: 1440px){
+    body{
+        background-color: var(--almostWhite);
+    }
     .intro{
         padding-left: 2rem;
         padding-top: 1.5rem;
@@ -201,31 +204,48 @@ h1{
     }
     .nav-menu details{
         padding-right: 2rem;
+        width: 102px;
+    }
+    details > summary{
+        width: 102px;
     }
     .features{
-        padding: 1rem;
+        width: 100%;
+        padding: .5rem 1.6rem;
         display: flex;
         /* margin-left: 1.5rem; */
         position: relative;
         top: 20px;
-        left: -60px;
-        background-color: var(--almostWhite);
+        left: -90px;
+        background-color:#fff;
         border-radius: 10px;
-        
+        box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    }
+
+    .company{
+        width: 6.5rem;
+        background-color:#fff;
+        border-radius: 10px;
+        margin: 0;
+        text-align: left;
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+        padding-bottom: .5rem;
+        padding-top: 1rem;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.3);
     }
     .nav-menu #about{
         margin-left: 2rem;
     }
-
     #login{
         margin-top: .5rem;
         position: relative;
-        left: 720px;
+        left: 690px;
     }
 
     #register{
         position: relative;
-        left: 750px;
+        left: 710px;
         padding: 0.7rem 1rem;
         align-self: baseline;
 
@@ -236,9 +256,10 @@ h1{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap:2rem;
-        margin-top: 8rem;
+        margin-top: 4.5rem;
         padding-left: 10rem;
         text-align: left;
+        place-items: center;
 
     }
 
@@ -246,25 +267,43 @@ h1{
         font-size: 5rem;
         padding-right: 6rem;
         margin-bottom: 2rem;
+        margin-top: 0;
     }
     .mid-content p{
-        padding: 0 9rem 1rem 0;
+        padding: 0 9rem 2rem 0;
         font-size: 18px;
     }
 
     .hero-image{
+        background-image: url(../images/image-hero-desktop.png);
         grid-column: 2/3;
         grid-row: span 2;
+        width: 415px;
+        height: 550px;
+        background-size: contain;
     }
 
     .mid-content{
         grid-row: 1/3;
         grid-column: 1/2;
     }
+
+    .mid-content button{
+        padding: 1.2rem 2rem;
+        font-size: 18px;
+    }
+    
     .footer{
+        justify-content: space-between;
         width: 35%;
-        justify-content: space-evenly;
         padding-left: 10rem;
+        margin-top: 0;
+        position: relative;
+        top: -20px;
+    }
+
+    .footer img{
+        width:15%;
     }
 
 }
