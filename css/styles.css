@@ -125,7 +125,7 @@ details > summary::marker /* Latest Chrome, Edge, Firefox */ {
   
 
 .hero-image{
-    background-image: url(../images/image-hero-mobile.png);
+    background-image: url("../images/image-hero-mobile.png");
     background-repeat: no-repeat;
     height: 280px;
     background-size:contain;
@@ -289,7 +289,7 @@ h1{
     }
 
     .hero-image{
-        background-image: url(../images/image-hero-desktop.png);
+        background-image: url("../images/image-hero-desktop.png");
         grid-column: 2/3;
         grid-row: span 2;
         width: 415px;
