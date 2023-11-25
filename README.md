@@ -28,7 +28,7 @@ Users should be able to:
 
 ![mobile View](Screenshots/qNEmafOuwq.jpg)
 ---
-![Laptop View](Screenshots/SOYSoBSbYO.jpg)
+![Laptop View](Screenshots/Mr8jc5EbiM.jpg)
 
 ### Links
 
