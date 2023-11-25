@@ -8,4 +8,5 @@
 
 $(".toggle-menu").on("click",function(){
     $(".nav-menu").toggleClass("close-menu");
+    $("#overlay").toggleClass("close-menu");
 })

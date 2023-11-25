@@ -25,7 +25,7 @@ body{
 .nav-menu{
     background-color: var(--almostWhite);
     width: 220px;
-    height: 100dvh;
+    height: 90dvh;
     position: absolute;
     top: 0;
     right: 0;
@@ -34,6 +34,7 @@ body{
     padding-top: 4rem;
     color: var(--mediumGray);
     padding-left: 1.5rem;
+    z-index: 1;
 }
 
 .icon-close{
@@ -171,7 +172,20 @@ h1{
 }
 
 .close-menu{
-    display: none;
+    display: none !important;
+}
+
+#overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    background: #000;
+    opacity: .6;
+    filter: alpha(opacity=60);
 }
 
 
@@ -304,18 +318,5 @@ h1{
 
     .footer img{
         width:15%;
-    }
-
-    #overlay {
-        display: none;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        height: 180vh;
-        background: #000;
-        opacity: .6;
-        filter: alpha(opacity=60);
     }
 }
